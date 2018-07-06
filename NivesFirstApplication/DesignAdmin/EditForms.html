@@ -1,0 +1,260 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+
+	<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Ziown Admin Panel</title>
+<!-- stylesheets -->
+<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="css/ui/jquery-ui-1.8.13.custom.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="css/elfinder.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/Sourcerer-1.2.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="css/chosen.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="css/uniform.default.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="css/data-table.css" type="text/css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="css/fullcalendar.css" media="screen"/>
+<link rel="stylesheet" href="css/colorpicker.css" type="text/css" media="screen"/>
+<!-- Jquery -->
+<script src="js/jquery-1.6.2.min.js"></script>
+<script src="js/jquery-ui-1.8.16.custom.js"></script>
+<script src="js/tiny_mce/jquery.tinymce.js"></script>
+<script src="js/chosen.jquery.js"></script>
+<script src="js/jquery.raty.js"></script>
+<script src="js/jquery.uniform.js"></script>
+<script src="js/jquery.dataTables.min.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/fileuploader.js"></script>
+<script src="js/fullcalendar.min.js"></script>
+<script src="js/Sourcerer-1.2.js"></script>
+<script src="js/jquery.tipTip.js"></script>
+<script src="js/jquery.menu.js"></script>
+<script src="js/jquery.accordion.js"></script>
+<script src="js/jquery.collapsible.js"></script>
+<script src="js/jquery.treeview.js"></script>
+<script src="js/elfinder.min.js"></script>
+<!--[if lte IE 8]><script src="js/excanvas.min.js"></script><![endif]-->
+<script src="js/jquery.flot.js"></script>
+<script src="js/jquery.flot.pie.js"></script>
+<script type="text/javascript" src="js/colorpicker.js"></script>
+<script type="text/javascript" src="js/eye.js"></script>
+<script type="text/javascript" src="js/utils.js"></script>
+<script type="text/javascript" src="js/layout.js"></script>
+<script type="text/javascript" src="js/jquery.notify.js"></script>
+<script type="text/javascript" src="js/jquery.simplemodal.js"></script>
+<script type="text/javascript" src="js/jquery.jBreadCrumb.1.1.js"></script>
+<script type="text/javascript" src="js/iphone-style-checkboxes.js"></script>
+<script src="js/custom.script.js"></script>
+</head>
+<body>
+<div id="wrapper">
+	<div id="header">
+		<div id="logo" class="droptips">
+			<a href="#" title="Admin Panel"><img src="images/logo.png" width="190" height="58" alt="Admin Panel"></a>
+		</div>
+		<div id="topbar">
+			
+			<ul class="notify-button">
+				
+				<li class="msg-alert"><a href="#"><span class="new-alert">65</span></a></li>
+			</ul>
+		</div>
+		<div id="usermenu">
+			<a href="#" class="admin-user"><span class="mnu-indicator"></span>Administrator<span class="user-icon"></span></a>
+            
+            
+			<div class="sub-menu">
+				<ul>		
+					<li><a href="#"><span class="icon-block-black box-incoming-b"></span>Inbox</a></li>
+					<li><a href="#"><span class="icon-block-black locked-tw-b"></span>Logout</a></li>
+                    
+				</ul>
+			
+			</div>
+		</div>
+</div>  <!---div header--->
+	
+	<div id="container">
+		<div id="sidebar">
+			<ul id="sidenav" class="menu collapsible">
+				<li><a href="dashboard.html"><span class="nav-icon dboard-icon"></span> Administracija</a></li>
+             <!---  <li><a href="dashboard.html"><span class="nav-icon dboard-icon"></span> Baneri</a></li> --->
+				<li><a href="#" class="active"><span class="nav-icon frm-element"></span>Baneri<span class="n-count">+</span>
+                <span class="active-nidicator">&nbsp;</span></a>
+				<ul class="acitem">
+					
+					<li><a href="content-page-form.html"><span class="list-icon">&nbsp;</span>Post Form</a></li>
+				</ul>
+				</li>
+                <li><a href="#" class="active"><span class="nav-icon frm-element"></span> Vijesti<span class="n-count">+</span>
+                <span class="active-nidicator">&nbsp;</span></a>
+				<ul class="acitem">
+					
+					<li><a href="content-page-form.html"><span class="list-icon">&nbsp;</span>Post Form</a></li>
+				</ul>
+				</li>
+                 <li><a href="#" class="active"><span class="nav-icon frm-element"></span> Pregled admina<span class="n-count">+</span>
+                <span class="active-nidicator">&nbsp;</span></a>
+				<ul class="acitem">
+					
+					<li><a href="content-page-form.html"><span class="list-icon">&nbsp;</span>Post Form</a></li>
+				</ul>
+				</li>
+			</ul>
+		</div>
+		<div id="content">
+			<div class="container_12">
+				<div class="widget-panel grid_12">
+					<div class="widget-top">
+						<h4>Upravljanje</h4>
+					</div>
+					<div class="widget-content module">
+						<div class="form-grid">
+							<form method="post" name="form1" id="form1" class="leftLabel">
+								<ul>
+									<li>
+									<label id="title1" for="Field1" class="fldTitle">Single Line Textbox</label>
+									<div class ="fieldwrap">
+										<input id="Field1" name="Field1" class="large textips" title="This is a textbox" type="text" maxlength="255" tabindex="1"/>
+									</div>
+                                    </li>
+                                    
+                                    <li>
+                                    <div class="container_12">
+				
+				<div class="widget-panel grid_12">
+					<div class="widget-top">
+						<h4>Table 2</h4>
+					</div>
+					<div class="widget-content module">
+						<div class="dataTables_wrapper">
+                        
+                        <table class="display data-table-theme">
+						<thead>
+						<tr><th class="sorting_asc" rowspan="1" colspan="1" style="width: 210px;">
+								 Naslov
+							</th><th class="sorting" rowspan="1" colspan="1" style="width: 294px;">
+								 Kratki opis
+							</th><th class="sorting" rowspan="1" colspan="1" style="width: 267px;">
+								 Dugio Opis
+							</th><th class="sorting" rowspan="1" colspan="1" style="width: 180px;">
+								 Datum
+							</th></tr>
+						</thead>
+						
+						
+						<tbody><tr class="gradeA even">
+							<td class=" sorting_1">
+								 Gecko
+							</td>
+							<td>
+								 Firefox 1.5
+							</td>
+							<td>
+								 Win 98+ / OSX.2+
+							</td>
+							<td class="center">
+								 1.8
+							</td>
+							
+						</tr><tr class="gradeA odd">
+							<td class=" sorting_1">
+								 Gecko
+							</td>
+							<td>
+								 Firefox 2.0
+							</td>
+							<td>
+								 Win 98+ / OSX.2+
+							</td>
+							<td class="center">
+								 1.8
+							</td>
+							
+						</tr><tr class="gradeA even">
+							<td class=" sorting_1">
+								 Gecko
+							</td>
+							<td>
+								 Firefox 3.0
+							</td>
+							<td>
+								 Win 2k+ / OSX.3+
+							</td>
+							<td class="center">
+								 1.9
+							</td>
+							
+						</tr><tr class="gradeA odd">
+							<td class=" sorting_1">
+								 Gecko
+							</td>
+							<td>
+								 Camino 1.0
+							</td>
+							<td>
+								 OSX.2+
+							</td>
+							<td class="center">
+								 1.8
+							</td>
+							
+						</tr><tr class="gradeA odd">
+							<td class=" sorting_1">
+								 Gecko
+							</td>
+							<td>
+								 Netscape 7.2
+							</td>
+							<td>
+								 Win 95+ / Mac OS 8.6-9.2
+							</td>
+							<td class="center">
+								 1.7
+							</td>
+							
+						</tr></tbody></table><div class="dataTables_info">Showing 1 to 10 of 51 entries</div><div class="dataTables_paginate paging_full_numbers"><span class="first paginate_button paginate_button_disabled"> Prvi</span><span class="previous paginate_button paginate_button_disabled">Predhodni</span><span><span class="paginate_active">1</span><span class="paginate_button">2</span><span class="paginate_button">3</span><span class="paginate_button">4</span><span class="paginate_button">5</span></span><span class="next paginate_button">Slijedeći</span><span class="last paginate_button">Zadnji </span></div></div>
+					</div>
+				</div>
+				
+			</div> <!--- end --->
+                                    
+                                    </li>  <!---End Table--->
+                                    
+      <li>
+      <label id="title590" class="fldTitle">Text Editor - Advance</label>
+  <div>
+  <textarea id="Field4" name="Field4" class="large tinymceS" spellcheck="true" rows="10" cols="50" tabindex="2" style="visibility: hidden;"></textarea>
+  </div>
+      </li>                              
+				
+									<li class="buttons bottom-round noboder">
+									<div class ="fieldwrap">
+										<input name="" type="submit" value="Potvrdi" class="submit-button"><input name="" value="Clear Form" type="reset" class="submit-button">
+									</div>
+									</li>
+								</ul>
+							</form>
+				  </div>
+			  </div>
+		  </div>
+	  </div>
+  </div>
+</div>
+    </div>
+<div id="footer-wrap">
+	<div id="footer">
+	  <div id="goTop">
+		  <a href="#" class="tip-top" title="Go Top">Top</a>
+		</div>
+  </div>
+</div>
+</body>
+</html>
+

@@ -1,0 +1,153 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="~/Site1.master.cs" Inherits="NivesFirstApplication.Site1" %>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
+    <title> Brza kuharica </title>
+  
+<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="Admin/css/grid.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="Admin/css/ui/jquery-ui-1.8.13.custom.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="Admin/css/elfinder.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="Admin/css/Sourcerer-1.2.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="Admin/css/chosen.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="Admin/css/uniform.default.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="Admin/css/data-table.css" type="text/css" media="screen"/>
+<link rel="stylesheet" type="Admin/text/css" href="css/fullcalendar.css" media="screen"/>
+<link rel="stylesheet" href="Admin/css/colorpicker.css" type="text/css" media="screen"/>
+
+<script src="Admin/js/jquery-1.6.2.min.js"></script>
+<script src="Admin/js/jquery-ui-1.8.16.custom.js"></script>
+<script src="Admin/js/tiny_mce/jquery.tinymce.js"></script>
+<script src="Admin/js/chosen.jquery.js"></script>
+<script src="Admin/js/jquery.raty.js"></script>
+<script src="Admin/js/jquery.uniform.js"></script>
+<script src="Admin/js/jquery.cookie.js"></script>
+<script src="Admin/js/fullcalendar.min.js"></script>
+<script src="Admin/js/Sourcerer-1.2.js"></script>
+<script src="Admin/js/jquery.tipTip.js"></script>
+<script src="Admin/js/jquery.menu.js"></script>
+<script src="Admin/js/jquery.accordion.js"></script>
+<script src="Admin/js/jquery.collapsible.js"></script>
+<script src="Admin/js/jquery.treeview.js"></script>
+<script src="Admin/js/elfinder.min.js"></script>
+<!--[if lte IE 8]><script src="js/excanvas.min.js"></script><![endif]-->
+<script type="text/javascript" src="Admin/js/colorpicker.js"></script>
+<script type="text/javascript" src="Admin/js/eye.js"></script>
+<script type="text/javascript" src="Admin/js/utils.js"></script>
+<script type="text/javascript" src="Admin/js/layout.js"></script>
+<script type="text/javascript" src="Admin/js/jquery.notify.js"></script>
+<script type="text/javascript" src="Admin/js/jquery.simplemodal.js"></script>
+<script type="text/javascript" src="Admin/js/jquery.jBreadCrumb.1.1.js"></script>
+<script type="text/javascript" src="Admin/js/iphone-style-checkboxes.js"></script>
+<script type="text/javascript" src="Admin/js/custom.script.js"></script>
+ 
+     <script type="text/javascript">
+         $(function () {
+             // $(".datepicker1").datepicker({ "dateFormat": "dd.mm.yy" }); //funkcija
+         });
+    </script>
+
+</head>
+
+<body>
+
+     <div id="wrapper">
+       <div id="header">
+            <div id="logo" class="droptips">
+            <a href="#" title="Admin Panel"><img src=".../images/logo1.png" width="190" height="58" alt="Web site" /></a>
+            </div> 
+
+           <div id="topbar">
+		
+		</div>
+           <div class="search-box">
+				<form method="get" action="RezultatiPretrage.aspx">
+
+					<input name="search" class="search-text" type="text" />
+					<input name="searchbtn" type="submit" class="search-button" />
+
+
+				</form>
+			</div>
+
+		<div id="usermenu">
+			<a href="/Admin/login.aspx" class="admin-user">Ulaz za admine<span class="user-icon"></span></a>           
+		             
+		</div>
+
+       </div> <!---Header closed -->
+
+         <div id="shortcur-bar" class="ui-sortable">
+             <div id="navigation-bar" class="navstyle">  
+
+             <ul>
+			<li><a href="/Index.aspx"><span class="sc-icon dashboard"></span> Početna </a></li>
+			
+			<li><a href="/NajbrzaJela.aspx"><span class="sc-icon satistics"></span> Najbrže gotova jela</a></li>				
+			<%--<li><a href="#"><span class="sc-icon content-c"></span> Podijeli recept!</a></li>--%>  <%--LOGIN--%>
+
+			<li><a href="/NasiVasiRecepti.aspx"><span class="sc-icon reports-c"></span> Pregledaj sve recepte </a></li>
+            <li><a href="/Registracija.aspx"><span class="sc-icon settings"></span> Sign up! </a></li>
+		
+		    </ul>
+
+             </div> 		
+	</div>
+
+	<div id="container">
+		<div id="sidebar">
+			<ul id="sidenav" class="menu collapsible">
+				
+                <li> <p style="align-content:space-around"><span class="nav-icon dboard-icon">  </span><a href="#" id="Recepti"><strong>Upoznajte se s nama  !</strong> </a> </p> </li> 
+                           
+				<li><a href="#empty" class="active"><span class="nav-icon frm-element"></span>Sadržaj brze kuharice<span class="n-count">+</span>
+                <span class="active-nidicator">&nbsp;</span></a>
+
+				<ul class="acitem" id="menuSastojci">		
+                    <li><a href="Admin/SastojciList.aspx"><span class="list-icon">&nbsp;</span>Pregled sastojaka</a></li>			
+					<li><a href="Admin/MjerneJediniceList.aspx"><span class="list-icon">&nbsp;</span>Pregled mjernih jedenica</a></li>
+				</ul>
+                </li>
+
+                    <li><a href="#empty" class="active"><span class="nav-icon frm-element"></span>Prijatelji brze kuharice<span class="n-count">+</span>
+                <span class="active-nidicator">&nbsp;</span></a>
+				<ul class="acitem" id="menuVanjskePoveznice">			
+                    <li><a href="http://www.coolinarika.com/recepti"><span class="list-icon">&nbsp;</span>Coolinarika.hr</a></li>		
+					<li><a href="http://www.gastro.hr/recepti/"><span class="list-icon">&nbsp;</span>Gastro.hr</a></li>
+                    <li> <a href ="http://www.1klik.hr/kuharica "> <span class="list-icon">&nbsp;</span>www.1klik.hr</a> </li>
+				</ul>
+				</li>
+               
+
+			</ul>
+		</div>
+
+          <div id="content">
+           <div class="container_12">
+
+                <div class="widget-panel grid_12">
+
+                    <asp:ContentPlaceHolder ID="cphMain" runat="server">
+
+                    </asp:ContentPlaceHolder>
+
+                </div>
+
+           </div>
+           </div>   <!---Content closed-->
+      </div>  <!---Comntainer closed -->
+    </div>  <!---wrapper closed -->
+
+<div id="footer-wrap">
+	<div id="footer">
+	  <div id="goTop"> <!---container_12-->
+		  <a href="#" class="tip-top" title="Go Top">Top</a>
+		</div>
+  </div>
+
+</div> <!--- Footer-wrap closed -->
+
+</body>
+</html>

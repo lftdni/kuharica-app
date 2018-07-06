@@ -1,0 +1,183 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="~/Admin/AdminMaster.master.cs" Inherits="NivesFirstApplication.Administration.AdminMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
+    <title>Sustav upravljanja </title>
+  
+    <link rel="stylesheet" href="css/styles.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="css/ui/jquery-ui-1.8.13.custom.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="css/elfinder.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/Sourcerer-1.2.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="css/chosen.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="css/uniform.default.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="css/data-table.css" type="text/css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="css/fullcalendar.css" media="screen"/>
+<link rel="stylesheet" href="css/colorpicker.css" type="text/css" media="screen"/>
+
+<script src="js/jquery-1.6.2.min.js"></script>
+<script src="js/jquery-ui-1.8.16.custom.js"></script>
+<script src="js/tiny_mce/jquery.tinymce.js"></script>
+<script src="js/chosen.jquery.js"></script>
+<script src="js/jquery.raty.js"></script>
+<script src="js/jquery.uniform.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/fullcalendar.min.js"></script>
+<script src="js/Sourcerer-1.2.js"></script>
+<script src="js/jquery.tipTip.js"></script>
+<script src="js/jquery.menu.js"></script>
+<script src="js/jquery.accordion.js"></script>
+<script src="js/jquery.collapsible.js"></script>
+<script src="js/jquery.treeview.js"></script>
+<script src="js/elfinder.min.js"></script>
+<!--[if lte IE 8]><script src="js/excanvas.min.js"></script><![endif]-->
+<script type="text/javascript" src="js/colorpicker.js"></script>
+<script type="text/javascript" src="js/eye.js"></script>
+<script type="text/javascript" src="js/utils.js"></script>
+<script type="text/javascript" src="js/layout.js"></script>
+<script type="text/javascript" src="js/jquery.notify.js"></script>
+<script type="text/javascript" src="js/jquery.simplemodal.js"></script>
+<script type="text/javascript" src="js/jquery.jBreadCrumb.1.1.js"></script>
+<script type="text/javascript" src="js/iphone-style-checkboxes.js"></script>
+<script type="text/javascript" src="js/custom.script.js"></script>
+ 
+     <script type="text/javascript">
+         $(function () {
+            // $(".datepicker1").datepicker({ "dateFormat": "dd.mm.yy" }); //funkcija
+         });       
+</script>
+</head>
+
+<body>
+
+     <div id="wrapper">
+       <div id="header">
+            <div id="logo" class="droptips">
+            <a href="#" title="Admin Panel"><img src=".../images/logo1.png" width="190" height="58" alt="Admin Panel" /></a>
+            </div> <!--id logo-->
+
+           <div id="topbar">
+		
+		</div>
+           <div class="search-box">
+				<form method="get" action="SearchResult.aspx">
+
+					<input name="search" class="search-text" type="text" />
+					<input name="searchbtn" type="submit" class="search-button" />
+
+				</form>
+			</div>
+
+		<div id="usermenu">
+			<a href="#" class="admin-user"><span class="mnu-indicator"></span> <asp:Literal ID="litAdminInfo" runat="server"></asp:Literal> <span class="user-icon"></span></a>
+            
+
+
+			<div class="sub-menu">
+				<ul>		
+					<li> <a href="Logout.aspx"> <span class="icon-block-black locked-tw-b"> </span> Logout </a>   </li>
+					   
+				</ul>
+			</div>
+
+             
+		</div>
+
+       </div> <!---Header closed -->
+
+         <div id="shortcur-bar" class="ui-sortable">
+		<ul>
+			<li><a href="index.aspx"><span class="sc-icon dashboard"></span> Početna </a></li>
+			<%--<li><a href="#"><span class="sc-icon settings"></span> Registriraj se! </a></li>--%>  <%--IDE NA WEB--%>
+
+			<li><a href="PregledNajbzihJela.aspx"><span class="sc-icon satistics"></span> Najbrže gotova jela</a></li>  <%--TODO--%>
+
+			<%--<li><a href="#"><span class="sc-icon userlist"></span> Logiraj se! </a></li> --%>  <%--IDE NA WEB--%>
+		
+			<li><a href="EditRecept.aspx"><span class="sc-icon content-c"></span> Podijeli recept!</a></li>
+			<li><a href="ReceptList.aspx"><span class="sc-icon reports-c"></span> Pregledaj sve recepte </a></li>
+            <li><a href="SastojciList.aspx"><span class="sc-icon reports-c"></span> Pregledaj sve sastojke </a></li>
+
+			
+		</ul>
+	</div>
+
+	<div id="container">
+		<div id="sidebar">
+			<ul id="sidenav" class="menu collapsible">
+				
+                <li> <p style="align-content:space-around"><span class="nav-icon dboard-icon">  </span><a href="index.aspx" id="Admin"><strong>Administracija</strong> </a> </p> </li> 
+                           
+				<li><a href="#empty" class="active"><span class="nav-icon frm-element"></span>Recepti brze kuharice<span class="n-count">+</span>
+                <span class="active-nidicator">&nbsp;</span></a>
+				<ul class="acitem" id="menuRecept">		
+                    <li><a href="ReceptList.aspx"><span class="list-icon">&nbsp;</span>Pregled recepata</a></li>			
+					<li><a href="EditRecept.aspx"><span class="list-icon">&nbsp;</span>Unos recepta</a></li>
+				</ul>
+                </li>
+
+                <li><a href="#empty" class="active"><span class="nav-icon frm-element"></span>Mjerne jedinice<span class="n-count">+</span>
+                <span class="active-nidicator">&nbsp;</span></a>
+				<ul class="acitem" id="menuNovost">			
+                    <li><a href="MjerneJediniceList.aspx"><span class="list-icon">&nbsp;</span>Pregled mjernih jedinica</a></li>		
+					<li><a href="EditMjernaJedinica.aspx"><span class="list-icon">&nbsp;</span>Unos mjerne jedinice</a></li>
+				</ul>
+				</li>
+
+              
+                    <li><a href="#empty" class="active"><span class="nav-icon frm-element"></span>Sastojci brze kuharice<span class="n-count">+</span>
+                <span class="active-nidicator">&nbsp;</span></a>
+				<ul class="acitem" id="menuSastojci">			
+                    <li><a href="SastojciList.aspx"><span class="list-icon">&nbsp;</span>Pregled sastojaka</a></li>		
+					<li><a href="EditSastojak.aspx"><span class="list-icon">&nbsp;</span>Unos novog sastojka</a></li>
+				</ul>
+				</li>
+
+                    <li><a href="#empty" class="active"><span class="nav-icon frm-element"></span>Začini brze kuharice<span class="n-count">+</span>
+                <span class="active-nidicator">&nbsp;</span></a>
+				<ul class="acitem" id="menuZacini">		<%--bilo je menuNovost--%>	
+                    <li><a href="ZaciniList.aspx"><span class="list-icon">&nbsp;</span>Pregled začina</a></li>		
+					<li><a href="EditZacin.aspx"><span class="list-icon">&nbsp;</span>Unos novog začina</a></li>
+				</ul>
+				</li>
+                
+
+                  <li><a href="#empty" class="active"><span class="nav-icon frm-element"></span> Korisnici <span class="n-count">+</span>
+                <span class="active-nidicator">&nbsp;</span></a>
+				<ul class="acitem" id="menuAdmin">
+                    <li><a href="AdminList.aspx"><span class="list-icon">&nbsp;</span>Pregled korisnika </a></li>
+					<li><a href="EditAdmin.aspx"><span class="list-icon">&nbsp;</span>Unos novog korisnika </a></li>
+				</ul>
+				</li>
+
+             
+
+			</ul>
+		</div>
+
+          <div id="content">
+           <div class="container_12">
+                <div class="widget-panel grid_12">
+                    <asp:ContentPlaceHolder ID="cphMain" runat="server">
+
+                    </asp:ContentPlaceHolder>
+                </div>
+
+           </div>
+           </div>   <!---Content closed-->
+      </div>  <!---Comntainer closed -->
+    </div>  <!---wrapper closed -->
+
+<div id="footer-wrap">
+	<div id="footer">
+	  <div id="goTop"> <!---container_12-->
+		  <a href="#" class="tip-top" title="Go Top">Top</a>
+		</div>
+  </div>
+</div> <!--- Footer-wrap closed -->
+
+</body>
+</html>

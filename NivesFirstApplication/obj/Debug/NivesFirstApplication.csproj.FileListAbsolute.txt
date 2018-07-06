@@ -1,0 +1,67 @@
+c:\users\ni\documents\visual studio 2012\Projects\NivesFirstApplication\NivesFirstApplication\bin\NivesFirstApplication.dll
+c:\users\ni\documents\visual studio 2012\Projects\NivesFirstApplication\NivesFirstApplication\bin\NivesFirstApplication.pdb
+c:\users\ni\documents\visual studio 2012\Projects\NivesFirstApplication\NivesFirstApplication\bin\Antlr3.Runtime.dll
+c:\users\ni\documents\visual studio 2012\Projects\NivesFirstApplication\NivesFirstApplication\bin\AspNet.ScriptManager.jQuery.dll
+c:\users\ni\documents\visual studio 2012\Projects\NivesFirstApplication\NivesFirstApplication\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+c:\users\ni\documents\visual studio 2012\Projects\NivesFirstApplication\NivesFirstApplication\bin\DotNetOpenAuth.AspNet.dll
+c:\users\ni\documents\visual studio 2012\Projects\NivesFirstApplication\NivesFirstApplication\bin\DotNetOpenAuth.Core.dll
+c:\users\ni\documents\visual studio 2012\Projects\NivesFirstApplication\NivesFirstApplication\bin\DotNetOpenAuth.OAuth.Consumer.dll
+c:\users\ni\documents\visual studio 2012\Projects\NivesFirstApplication\NivesFirstApplication\bin\DotNetOpenAuth.OAuth.dll
+c:\users\ni\documents\visual studio 2012\Projects\NivesFirstApplication\NivesFirstApplication\bin\DotNetOpenAuth.OpenId.dll
+c:\users\ni\documents\visual studio 2012\Projects\NivesFirstApplication\NivesFirstApplication\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+c:\users\ni\documents\visual studio 2012\Projects\NivesFirstApplication\NivesFirstApplication\bin\EntityFramework.dll
+c:\users\ni\documents\visual studio 2012\Projects\NivesFirstApplication\NivesFirstApplication\bin\Microsoft.AspNet.FriendlyUrls.dll
+c:\users\ni\documents\visual studio 2012\Projects\NivesFirstApplication\NivesFirstApplication\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+c:\users\ni\documents\visual studio 2012\Projects\NivesFirstApplication\NivesFirstApplication\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+c:\users\ni\documents\visual studio 2012\Projects\NivesFirstApplication\NivesFirstApplication\bin\Microsoft.ScriptManager.MSAjax.dll
+c:\users\ni\documents\visual studio 2012\Projects\NivesFirstApplication\NivesFirstApplication\bin\Microsoft.ScriptManager.WebForms.dll
+c:\users\ni\documents\visual studio 2012\Projects\NivesFirstApplication\NivesFirstApplication\bin\Microsoft.Web.Infrastructure.dll
+c:\users\ni\documents\visual studio 2012\Projects\NivesFirstApplication\NivesFirstApplication\bin\System.Web.Optimization.dll
+c:\users\ni\documents\visual studio 2012\Projects\NivesFirstApplication\NivesFirstApplication\bin\System.Web.Providers.dll
+c:\users\ni\documents\visual studio 2012\Projects\NivesFirstApplication\NivesFirstApplication\bin\WebGrease.dll
+c:\users\ni\documents\visual studio 2012\Projects\NivesFirstApplication\NivesFirstApplication\bin\EntityFramework.xml
+c:\users\ni\documents\visual studio 2012\Projects\NivesFirstApplication\NivesFirstApplication\bin\DotNetOpenAuth.Core.xml
+c:\users\ni\documents\visual studio 2012\Projects\NivesFirstApplication\NivesFirstApplication\bin\DotNetOpenAuth.OAuth.xml
+c:\users\ni\documents\visual studio 2012\Projects\NivesFirstApplication\NivesFirstApplication\bin\DotNetOpenAuth.OAuth.Consumer.xml
+c:\users\ni\documents\visual studio 2012\Projects\NivesFirstApplication\NivesFirstApplication\bin\DotNetOpenAuth.OpenId.xml
+c:\users\ni\documents\visual studio 2012\Projects\NivesFirstApplication\NivesFirstApplication\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+c:\users\ni\documents\visual studio 2012\Projects\NivesFirstApplication\NivesFirstApplication\bin\DotNetOpenAuth.AspNet.xml
+c:\users\ni\documents\visual studio 2012\Projects\NivesFirstApplication\NivesFirstApplication\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+c:\users\ni\documents\visual studio 2012\Projects\NivesFirstApplication\NivesFirstApplication\bin\Microsoft.AspNet.FriendlyUrls.xml
+c:\users\ni\documents\visual studio 2012\Projects\NivesFirstApplication\NivesFirstApplication\obj\Debug\NivesFirstApplication.dll
+c:\users\ni\documents\visual studio 2012\Projects\NivesFirstApplication\NivesFirstApplication\obj\Debug\NivesFirstApplication.pdb
+C:\Users\NI\Documents\Visual Studio 2012\Projects\NivesFirstApplication\NivesFirstApplication\obj\Debug\NivesFirstApplication.csprojResolveAssemblyReference.cache
+C:\Users\NI\Desktop\KlobasTransportVjezba\NivesFirstApplication\NivesFirstApplication\bin\NivesFirstApplication.dll.config
+C:\Users\NI\Desktop\KlobasTransportVjezba\NivesFirstApplication\NivesFirstApplication\bin\NivesFirstApplication.dll
+C:\Users\NI\Desktop\KlobasTransportVjezba\NivesFirstApplication\NivesFirstApplication\bin\NivesFirstApplication.pdb
+C:\Users\NI\Desktop\KlobasTransportVjezba\NivesFirstApplication\NivesFirstApplication\bin\Antlr3.Runtime.dll
+C:\Users\NI\Desktop\KlobasTransportVjezba\NivesFirstApplication\NivesFirstApplication\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\NI\Desktop\KlobasTransportVjezba\NivesFirstApplication\NivesFirstApplication\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\NI\Desktop\KlobasTransportVjezba\NivesFirstApplication\NivesFirstApplication\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\NI\Desktop\KlobasTransportVjezba\NivesFirstApplication\NivesFirstApplication\bin\DotNetOpenAuth.Core.dll
+C:\Users\NI\Desktop\KlobasTransportVjezba\NivesFirstApplication\NivesFirstApplication\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\NI\Desktop\KlobasTransportVjezba\NivesFirstApplication\NivesFirstApplication\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\NI\Desktop\KlobasTransportVjezba\NivesFirstApplication\NivesFirstApplication\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\NI\Desktop\KlobasTransportVjezba\NivesFirstApplication\NivesFirstApplication\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\NI\Desktop\KlobasTransportVjezba\NivesFirstApplication\NivesFirstApplication\bin\EntityFramework.dll
+C:\Users\NI\Desktop\KlobasTransportVjezba\NivesFirstApplication\NivesFirstApplication\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\NI\Desktop\KlobasTransportVjezba\NivesFirstApplication\NivesFirstApplication\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\NI\Desktop\KlobasTransportVjezba\NivesFirstApplication\NivesFirstApplication\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\NI\Desktop\KlobasTransportVjezba\NivesFirstApplication\NivesFirstApplication\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\NI\Desktop\KlobasTransportVjezba\NivesFirstApplication\NivesFirstApplication\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\NI\Desktop\KlobasTransportVjezba\NivesFirstApplication\NivesFirstApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\NI\Desktop\KlobasTransportVjezba\NivesFirstApplication\NivesFirstApplication\bin\System.Web.Optimization.dll
+C:\Users\NI\Desktop\KlobasTransportVjezba\NivesFirstApplication\NivesFirstApplication\bin\System.Web.Providers.dll
+C:\Users\NI\Desktop\KlobasTransportVjezba\NivesFirstApplication\NivesFirstApplication\bin\WebGrease.dll
+C:\Users\NI\Desktop\KlobasTransportVjezba\NivesFirstApplication\NivesFirstApplication\bin\EntityFramework.xml
+C:\Users\NI\Desktop\KlobasTransportVjezba\NivesFirstApplication\NivesFirstApplication\bin\DotNetOpenAuth.Core.xml
+C:\Users\NI\Desktop\KlobasTransportVjezba\NivesFirstApplication\NivesFirstApplication\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\NI\Desktop\KlobasTransportVjezba\NivesFirstApplication\NivesFirstApplication\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\NI\Desktop\KlobasTransportVjezba\NivesFirstApplication\NivesFirstApplication\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\NI\Desktop\KlobasTransportVjezba\NivesFirstApplication\NivesFirstApplication\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\NI\Desktop\KlobasTransportVjezba\NivesFirstApplication\NivesFirstApplication\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\NI\Desktop\KlobasTransportVjezba\NivesFirstApplication\NivesFirstApplication\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+C:\Users\NI\Desktop\KlobasTransportVjezba\NivesFirstApplication\NivesFirstApplication\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\NI\Desktop\KlobasTransportVjezba\NivesFirstApplication\NivesFirstApplication\obj\Debug\NivesFirstApplication.csprojResolveAssemblyReference.cache
+C:\Users\NI\Desktop\KlobasTransportVjezba\NivesFirstApplication\NivesFirstApplication\obj\Debug\NivesFirstApplication.dll
+C:\Users\NI\Desktop\KlobasTransportVjezba\NivesFirstApplication\NivesFirstApplication\obj\Debug\NivesFirstApplication.pdb
